@@ -1,0 +1,121 @@
+@import url("menu.css");
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+}
+
+header {
+    background: url(../img/artificial-intelligence-3382507_1280.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.headerText {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.headerText a {
+    margin-top: 44px;
+    padding: 7px 113px;
+    font-size: 2.2em;
+    border-radius: 22px;
+    text-shadow: 1px 1px black;
+}
+
+.headerText h1 {
+    font-size: 700%;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bolder
+}
+
+.headerText h3 {
+    font-size: 350%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+#fixed {
+    background: url(../img/code-1076536_1280.jpg) no-repeat center center fixed;
+    display: table;
+    height: 31vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+
+main {
+    font-size: 1.6em;
+}
+
+.img-fluid {
+    border-radius: 20% 5%;
+}
+
+
+
+/* -- FOOTER --- */
+
+footer {
+    padding: 13px 0;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+
+#footerText {
+    font-size: 17px;
+}
+
+.spacerLandscape {
+    margin: 7px;
+    content: "";
+    display: inline-block;
+}
+
+footer a:hover {
+    color: red;
+    transition: 1.3s;
+}
+
+.footerIcon {
+    font-size: 2em;
+    letter-spacing: 22px;
+}
+
+#FlatIconLogo img {
+    width: 100px;
+    color: transparent;
+}
+
+#BootstrapLogo img {
+    width: 30px;
+    border-radius: 5px;
+}
+
+#FlatIconLogo,
+#BootstrapLogo {
+    color: transparent;
+}
+
+#FontAwesomeLogo {
+    background-color: #339AF0;
+    color: white;
+    padding: 1px 4px;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 5px;
+}
